@@ -1,0 +1,82 @@
+body { 
+    padding-top: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+}
+html {
+    height: 100%;
+}
+.bg {
+    background-image: url("resources/earth.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 {
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 50px
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(odd) {background-color: #b6b3b3;}
+.navbar-brand{
+    background: skyblue;
+    border-radius: 10px;
+    border: 2px;
+    border-color: black;
+}
+.joey {
+    background: white;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+
+}
+.row {
+    display: -ms-flexbox; /*IE10*/
+    display: flex;
+    -ms-flex-wrap: wrap; /*IE10*/
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin: 0px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 4px 0px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+.col-md-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/* Responsive layout - makes the four columns next to each other */
+@media screen and (max-width: 1000px) {
+    .column {
+        -ms-flex: 25%;
+        flex: 25%;
+        max-width: 25%;
+    }
+} 
