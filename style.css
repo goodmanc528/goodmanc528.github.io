@@ -21,8 +21,8 @@ h2 {
     text-align: left;
     padding-left: 50px
 }
-tr:nth-child(even) {background-color: #f2f2f2;}
-tr:nth-child(odd) {background-color: #b6b3b3;}
+tr:nth-child(even) {background-color: #94abaf;}
+tr:nth-child(odd) {background-color: #dad8d8;}
 .navbar-brand{
     border-radius: 10px;
     border: 2px;
